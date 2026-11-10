@@ -6,17 +6,17 @@ is reorganised, only the line numbers change; descriptions and entry order
 are stable.
 
 ## tools/retention_audit.py
-- tools/retention_audit.py:22 - Default retention windows per record class
-- tools/retention_audit.py:45 - Case-file purge eligibility check
-- tools/retention_audit.py:53 - Legal-hold override handling
-- tools/retention_audit.py:63 - Cross-border transfer flag
-- tools/retention_audit.py:68 - Audit-trail checksum verification
-- tools/retention_audit.py:77 - Disposal certificate generation
-- tools/retention_audit.py:88 - Embargo expiry calculation
-- tools/retention_audit.py:94 - Duplicate record detection
-- tools/retention_audit.py:105 - Chain-of-custody reconciliation
-- tools/retention_audit.py:112 - Redaction queue handoff
-- tools/retention_audit.py:117 - Quarterly retention report export
+- tools/retention_audit.py:33 - Default retention windows per record class
+- tools/retention_audit.py:72 - Case-file purge eligibility check
+- tools/retention_audit.py:101 - Legal-hold override handling
+- tools/retention_audit.py:111 - Cross-border transfer flag
+- tools/retention_audit.py:121 - Audit-trail checksum verification
+- tools/retention_audit.py:130 - Disposal certificate generation
+- tools/retention_audit.py:160 - Embargo expiry calculation
+- tools/retention_audit.py:166 - Duplicate record detection
+- tools/retention_audit.py:184 - Chain-of-custody reconciliation
+- tools/retention_audit.py:191 - Redaction queue handoff
+- tools/retention_audit.py:201 - Quarterly retention report export
 
 ## tools/export_pipeline.py
 - tools/export_pipeline.py:17 - CSV column ordering
